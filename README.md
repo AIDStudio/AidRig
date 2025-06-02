@@ -41,9 +41,15 @@ https://github.com/AIDStudio/AidRig
 
 ```
 pkg install unrar
+
 unrar x android.rar
+# or if the file is in a different directory:
+# unrar x /path/to/android.rar
+
 cd android
-chmod +x aidrig
+
+chmod +x aidrig   # Important: make the binary executable before running it!
+
 ./aidrig -a rx -o stratum+ssl://rx.unmineable.com:443 -u XMR:YOUR_WALLET.YOUR_WORKER -p x -k -t2 --cpu-affinity 4-7
 ```
 
