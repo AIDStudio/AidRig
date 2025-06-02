@@ -35,6 +35,7 @@ Optimized for RandomX algorithm (GhostRider supported, but not optimized)
 Download the latest aidrig builds here:
 
 👉 GitHub Releases
+https://github.com/AIDStudio/AidRig
 
 📲 Quick Start (Android via Termux)
 
